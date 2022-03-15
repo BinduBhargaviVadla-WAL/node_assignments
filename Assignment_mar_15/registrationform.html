@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <title>Registration Form</title>
+
+    <style>
+      body {
+        background: linear-gradient(to top, #c26dbc, #4c5270);
+        height: 100vh;
+      }
+      input {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+        border-radius: 10px;
+        border: 3px solid white;
+      }
+
+      button {
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #2ff3e0;
+        border-radius: 10px;
+        border: 3px solid lightyellow;
+        font-weight: bold;
+      }
+      form {
+        width: fit-content;
+        border: 2px solid white;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registration Form</h1>
+      <form action="/userTable" method="post">
+        <input
+          class="fields"
+          type="text"
+          placeholder="Enter User Name"
+          name="userName"
+        />
+        <input
+          class="fields"
+          type="email"
+          placeholder="Enter Email"
+          name="email"
+        />
+        <input
+          class="fields"
+          type="password"
+          placeholder="Enter password"
+          name="password"
+        />
+        <input class="fields" type="date" name="dob" />
+        <input
+          class="fields"
+          type="text"
+          placeholder="Enter City Name"
+          name="city"
+        />
+        <input
+          class="fields"
+          type="text"
+          placeholder="Enter Country Name"
+          name="country"
+        />
+        <button class="fields">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

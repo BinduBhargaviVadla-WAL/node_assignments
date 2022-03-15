@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculation</title>
+    <style>
+      body {
+        background: linear-gradient(to top, #c26dbc, #4c5270);
+        height: 100vh;
+      }
+      input {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+        border-radius: 10px;
+        border: 3px solid white;
+      }
+
+      button {
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #2ff3e0;
+        border-radius: 10px;
+        border: 3px solid lightyellow;
+        font-weight: bold;
+      }
+      form {
+        width: fit-content;
+        border: 2px solid white;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        <b>Note:</b> pass the parameter as for Addition - add, subtraction-
+        subtract, Multiplication - multiply, Division - divide
+      </p>
+    </div>
+    <form action="/" method="post">
+      <h1>Enter Values</h1>
+      <input type="number" placeholder="Enter a Number" name="numOne" />
+      <input type="number" placeholder="Enter a Number" name="numTwo" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
